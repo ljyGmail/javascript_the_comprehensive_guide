@@ -1,3 +1,7 @@
+// 7.1.5 Reading the Value of Radio Buttons
+"use strict"
+
+// Access to a Checkbox
 function init() {
     const messageContainer = document.getElementById('selection'); // Container for messages
     const orderForm = document.getElementById('orderform'); // Form
