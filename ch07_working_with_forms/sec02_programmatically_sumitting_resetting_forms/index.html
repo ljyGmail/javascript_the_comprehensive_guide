@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Programmatically Submitting and Resetting Forms</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
+          crossorigin="anonymous">
+    <script src="scripts/main.js"></script>
+</head>
+<body>
+<form action="login.html" id="login" name="login" method="post" class="form col-xs-4 center-block">
+    <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" class="form-control" value="" placeholder="Username">
+    </div>
+    <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" class="form-control" value="" placeholder="Password">
+    </div>
+    <div class="checkbox">
+        <label for="remember">
+            <input type="checkbox" id="remember" name="remember" value="on">
+            Remember login on this computer
+        </label>
+    </div>
+    <span id="submit" name="submit" class="btn btn-primary btn-block">Login</span>
+    <span id="reset" name="reset" class="btn btn-default btn-block">Reset</span>
+</form>
+</body>
+</html>
